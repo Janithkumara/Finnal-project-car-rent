@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="20"
+    android:background="@color/dark_light_balck"
+
+    android:backgroundTint="#193235"
+    android:backgroundTintMode="screen"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="200"
+android:layout_gravity="center"
+        android:background="#294874"
+        android:foregroundGravity="right"
+        android:src="@drawable/log" />
+
+    <Button
+        android:id="@+id/buttonlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="40"
+        android:backgroundTint="#294874"
+        android:rotationX="20"
+        android:text="Login"
+        android:layout_gravity="top|center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="88dp"
+
+        android:backgroundTint="#F8F4EFEF"
+        android:text="Premium Car Rent Enjoy the Luxury"
+        android:textColor="@color/white"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="-8dp"
+        android:layout_weight="40"
+        android:backgroundTint="#294874"
+        android:rotationX="25"
+        android:text="Register Now"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+
+        android:gravity="center"
+        android:text="Home"
+        android:textSize="20sp"
+        android:textColorLink="#5EB2F4" />
+
+    <Button
+        android:id="@+id/btn_customer"
+        android:layout_width="400dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="Customer"
+
+        />
+
+    <Button
+        android:id="@+id/btn_employee"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="Employee"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_Admin"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="Admin"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
