@@ -28,7 +28,7 @@ public class employee_register_Activity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener(){
 
             public void  onClick(View v){
-                Intent intent = new Intent(employee_register_Activity.this, employeeActivity.class) ;
+                Intent intent = new Intent(employee_register_Activity.this, employee_login_Activity.class) ;
                 startActivity(intent);
 
 

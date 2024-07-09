@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener(){
 
             public void  onClick(View v){
-                Intent intent = new Intent(MainActivity.this,customerActivity.class) ;
+                Intent intent = new Intent(MainActivity.this,loginActivity.class) ;
                 startActivity(intent);
 
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener(){
 
             public void  onClick(View v){
-                Intent intent = new Intent(MainActivity.this,employeeActivity.class) ;
+                Intent intent = new Intent(MainActivity.this,employee_login_Activity.class) ;
                 startActivity(intent);
 
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener(){
 
             public void  onClick(View v){
-                Intent intent = new Intent(MainActivity.this, adminActivity.class) ;
+                Intent intent = new Intent(MainActivity.this, admin_login_Activity.class) ;
                 startActivity(intent);
 
 
